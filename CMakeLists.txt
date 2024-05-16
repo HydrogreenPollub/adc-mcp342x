@@ -1,3 +1,3 @@
-idf_component_register(SRCS "msc342x.c"
+idf_component_register(SRCS "mcp342x.c"
     INCLUDE_DIRS "include"
     REQUIRES driver)
