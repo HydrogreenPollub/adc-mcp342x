@@ -48,7 +48,7 @@ uint8_t _channel;
 
 void mcp342x_init(config_mcp3424_t *mcp_conf, i2c_master_dev_handle_t dev_handle);
 uint8_t mcp342x_get_config(i2c_master_dev_handle_t dev_handle, config_mcp3424_t *mcp_conf);
-double mcp342x_measure(i2c_master_dev_handle_t dev_handle, config_mcp3424_t *mcp_conf);
+uint32_t mcp342x_measure(i2c_master_dev_handle_t dev_handle, config_mcp3424_t *mcp_conf);
 void mcp342x_new_conversion(i2c_master_dev_handle_t dev_handle, config_mcp3424_t *mcp_conf);
 
 
